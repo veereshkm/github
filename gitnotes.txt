@@ -1,0 +1,20 @@
+Creating remote repository in github
+1. create an account in github.com
+URL: https://github.com
+2. login github.com with your credentials.
+click on "new" --> give a name "flipkart-ecomerce" --> "create reopository"
+3. copy the repo URL from Github:
+https://github.com/nageshvkn/flipkart-ecomerce.git
+4. Clone the source code from remote repository using 'git clone' command
+git clone https://github.com/nageshvkn/flipkart-ecomerce.git
+5. cd "flipkart-ecomerce" and observe ".git" folder. ".git" is called as "Lqçal Reposiotory"
+6. Create some sample code and submit the code to remote repo.
+-> touch Login.java
+git add Login. java
+git commit Login.java -m "login module code"
+-> git push -> [refer below topic [Setting up token/password] to generate token or password]
+--> git log Login.java (check the history of the file)
+7. After this, you can clone your repository in another directory and check if you get Login.java as your repaositary has file now.
+
+Qn: Sankar
+How Git manages storage
